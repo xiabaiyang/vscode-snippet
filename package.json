@@ -1,0 +1,52 @@
+{
+    "name": "vscode-react-mobx-snippet",
+    "version": "0.0.1",
+    "description": "mobx with react snippets", 
+    "icon": "icon/icon.png",
+    "publisher": "baiyangfe",
+    "repository": {
+        "type": "git", 
+        "url":"https://github.com/xiabaiyang/vscode-snippet.git"
+    },
+    "galleryBanner": {
+        "color": "#0273D4",
+        "theme": "dark"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": ["mobx","typescript-react","typescript","react-snippets","react-ts-snippets","react-typescript-snippets","react"],
+    "engines": {
+        "vscode": "^1.37.1"
+    },
+    "author":{ 
+        "name": "xiabaiyang",
+        "email": "baiyangfe@gmail.com",
+        "url": "https://github.com/xiabaiyang"
+    },
+    "categories": [
+        "Snippets",
+        "Other"
+    ],
+    "contributes":{
+        "snippets": [
+            {
+                "language": "react",
+                "path":"./snippets/react-mobx.json"
+            },
+            {
+                "language": "typescript",
+                "path":"./snippets/react-mobx.json"
+            },
+            {
+                "language": "javascript",
+                "path":"./snippets/react-mobx.json"
+            }
+        ]
+    },
+    "bugs": {  
+        "url": "https://github.com/xiabaiyang/vscode-snippet/issues"
+    },
+    "homepage": "https://github.com/xiabaiyang/vscode-snippet/readme",
+    "license": "SEE LICENSE IN LICENSE"
+}
